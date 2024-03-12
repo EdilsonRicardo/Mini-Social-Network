@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 5px;
+    background-color: slateblue;
+    padding: 10px;
+    width: 60vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+#input-title, #textarea-description{
+    border: 3px solid rgb(158, 147, 236);
+    padding: 3px;
+    width: 70%;
+    outline: none;
+}
+#textarea-description{
+    height: 30%;
+}
+#input-title{
+    
+}
+
+#submit-button{
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(96, 94, 94);
+    cursor: pointer;
+}
+
+#submit-button:hover{
+    background-color: rgb(223, 221, 221);
+}

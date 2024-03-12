@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.login {
+    /* background-color: red;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50vw;
+    height: 80vh;
+}
+.container {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    padding: 150px 100px;
+    gap: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Define o box-shadow */
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(96, 94, 94);
+    cursor: pointer;
+}

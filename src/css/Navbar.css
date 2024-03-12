@@ -1,0 +1,38 @@
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row; 
+    gap: 50px;
+    background-color: slateblue;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 100vw;
+    height: 13vh;
+    padding-right: 20px;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: white;
+    
+}
+
+#img-user{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
