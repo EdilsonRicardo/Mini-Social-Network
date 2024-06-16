@@ -22,15 +22,15 @@ export const Main = () => {
 
   }, [])
   return (
-    
+
     <div>
-      
-      { !user ?  <h1>WELCOME</h1> :
-      postsList?.map((post) =>
-        (<Post post={post} />)
-        ) 
+
+      {!user ? <h1>WELCOME</h1> :
+        postsList?.map((post) =>
+          (<Post post={post} />)
+        )
       }
-    
+
     </div>
 
 
